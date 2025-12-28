@@ -84,9 +84,9 @@ Ce projet est destiné à un usage **personnel ou éducatif**, notamment pour co
 ## 📌 Exemple d’utilisation
 
 ```python
-from dessiner_arbre_cours import *
+from modules_arbres import *
 
-racine=Noeud("Gaufrette", Noeud("Charlie", Noeud("Augustin", None, Noeud("Bubulle")), Noeud("Flipper")), Noeud("Médor"))
+racine=Noeud("A", Noeud("B", Noeud("C", None, Noeud("E")), Noeud("D")), Noeud("F"))
 arbre=Arbre(racine)
 dessiner(arbre)
 print("Hauteur :", arbre.hauteur())
