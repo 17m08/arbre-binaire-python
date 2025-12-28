@@ -101,7 +101,7 @@ print("Taille :", arbre.taille())
 - Étudier les propriétés (complet, parfait, équilibré)
 - Servir de base pour des projets plus avancés (BST, AVL, etc.)
 
---
+---
 
 ## 📜 Licence
 
